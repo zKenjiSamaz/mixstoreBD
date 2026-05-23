@@ -33,8 +33,7 @@ services:
       - "1433:1433"
     volumes:
       - sqlserver_data:/var/opt/mssql
-#admin por defecto es sa y el nombre es master por defecto
-
+#admin por defecto es sa
 volumes:
   mysql_data:
   postgres_data:
